@@ -1,16 +1,16 @@
 import setuptools
 
-USERNAME = 'beasteers'
+USERNAME = 'beyse'
 NAME = 'randomname'
 
 setuptools.setup(
     name=NAME,
-    version='0.1.5',
+    version='0.1.6',
     description='Generate random adj-noun names like docker and github.',
     long_description=open('README.md').read().strip(),
     long_description_content_type='text/markdown',
-    author='Bea Steers',
-    author_email='bea.steers@gmail.com',
+    author='Sebastian Beyer',
+    author_email='sebastian.beyer@live.com',
     url='https://github.com/{}/{}'.format(USERNAME, NAME),
     packages=setuptools.find_packages(),
     package_data={NAME: ['wordlists/**/*.txt']},
